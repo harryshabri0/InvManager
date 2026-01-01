@@ -1,16 +1,35 @@
-# React + Vite
+# 📦 InvManager - Real-time Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**InvManager** adalah aplikasi manajemen inventaris berbasis web yang dirancang untuk membantu pengelolaan stok barang secara efisien dan real-time. Dibangun dengan teknologi modern seperti **React**, **Tailwind CSS v4**, dan **Firebase**, aplikasi ini menawarkan pengalaman pengguna yang mulus dengan fitur analitik yang informatif.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fitur Utama
 
-## React Compiler
+- **Real-time Synchronization**: Sinkronisasi data instan di semua perangkat menggunakan Firebase Firestore.
+- **Full CRUD Operations**: Tambah, lihat, edit, dan hapus data barang dengan mudah.
+- **Interactive Dashboard**: Analitik visual menggunakan grafik (Pie Chart) untuk memantau distribusi kategori barang.
+- **Advanced Filtering**: Sistem pencarian dan filter berdasarkan kategori yang dinamis.
+- **Low Stock Alerts**: Indikator visual otomatis untuk barang dengan stok di bawah 10 unit.
+- **Export to CSV**: Fitur untuk mengunduh laporan inventaris dalam format file Excel/CSV.
+- **Modern UI/UX**: Antarmuka bersih dengan mode modal kustom, backdrop blur, dan animasi transisi halus dari Tailwind v4.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React (Vite)
+- **Styling**: Tailwind CSS v4
+- **State Management**: Zustand
+- **Database**: Firebase Firestore
+- **Icons**: Lucide React
+- **Charts**: Recharts
+
+---
+
+## 📥 Instalasi & Persiapan
+
+1. **Clone repository ini**
+   ```bash
+   git clone [https://github.com/harryshabri0/InvManager.git](https://github.com/harryshabri0/InvManager.git)
+   cd InvManager
